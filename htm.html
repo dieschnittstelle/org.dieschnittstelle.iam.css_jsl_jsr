@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Neue Beispiele HTM, CSS, JSL, JSR</title>
+    <!-- add style -->
+    <link rel="stylesheet" href="css/css.css"/>
+    <!-- add interaction control -->
+    <script type="application/javascript" src="js/jsl.js"></script>
+    <script type="application/javascript" src="js/jsr.js"></script>
+    <!-- add the "library" script wrapping XMLHttpRequest -->
+    <script type="application/javascript" src="js/lib/xhr.js"></script>
+</head>
+<body>
+    <header>
+        <button class="imgbutton toggle-listeners"></button>
+        <h1>Listenansicht</h1>
+        <button class="imgbutton new-item" disabled="disabled"></button>
+    </header>
+    <main>
+        <ul>
+            <li>lorem<button class="imgbutton edit-item"></button></li>
+            <li>ipsum<button class="imgbutton edit-item"></button></li>
+            <li>dolor<button class="imgbutton edit-item"></button></li>
+            <li>sit<button class="imgbutton edit-item"></button></li>
+            <li>amet<button class="imgbutton edit-item"></button></li>
+        </ul>
+    </main>
+    <dialog class="toast" open>
+        lorem ipsum
+    </dialog>
+</body>
+</html>

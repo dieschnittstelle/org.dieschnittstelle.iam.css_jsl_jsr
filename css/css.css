@@ -1,0 +1,164 @@
+/* variable declarations */
+:root {
+    --myapp-color-background: limegreen;
+    --myapp-color-separator: rgb(120,120,120);
+    --myapp-color-main: rgb(45,45,45);
+    --myapp-color-header: rgb(60,60,60)
+}
+
+
+html, body {
+    background-color: var(--myapp-color-background);
+    margin: 0px;
+    font-family: "Avenir Medium", sans-serif;
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+/* block text selection */
+
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+/* use flexbox for horizontal positioning (replaces floating used in earlier versions) */
+header, footer, li {
+    display: flex;
+}
+
+/* header and its parts */
+
+header {
+    background-color: var(--myapp-color-header);
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    line-height: 50px;
+}
+
+header h1 {
+    font-size: 18pt;
+    margin: 0px;
+    font-weight: normal;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.imgbutton {
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    background-origin: content-box;
+    background-position: center center;
+    filter: invert(90%);
+    -webkit-filter: invert(90%);
+}
+
+.listeners-active .toggle-listeners {
+    background-image: url("./img/png/mic_off_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: 30px 30px;
+    /*float: left;*/
+    justify-content: flex-start;
+}
+
+.toggle-listeners {
+    background-image: url("./img/png/mic_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: 23px 30px;
+    /*float: left;*/
+    justify-content: flex-start;
+}
+
+.new-item {
+    background-image: url("./img/png/add_FILL0_wght400_GRAD0_opsz24.png");
+    /*float: right;*/
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.edit-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url("./img/png/edit_FILL0_wght400_GRAD0_opsz24.png");
+    /*float: right;*/
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+/* main part of the view */
+
+.maincontent, main {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--myapp-color-main);
+    height: calc(100% - (50px));
+    height: -webkit-calc(100% - 50px);
+    max-height: calc(100% - 50px);
+    max-height: -webkit-calc(100% - 50px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* list and list items */
+
+ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20pt;
+    padding-left: 10px;
+    border-bottom: 1px solid var(--myapp-color-separator);
+}
+
+/* disabled elements */
+[disabled] {
+    opacity: 0.5;
+}
+
+/* selected elements */
+li:active, .imgbutton:active  {
+    opacity: 0.1;
+}
+
+
+/* toast */
+
+dialog.toast {
+    position: fixed;
+    width: 60%;
+    bottom: 15%;
+    left: 20%;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.0;
+    color: white;
+    border: none;
+    transition: opacity 0.5s, background-color 0.5s;
+    transition-delay: 0.5s;
+}
+
+.toast.shown {
+    opacity: 1.0;
+    background-color: gray;
+    /*transition-delay: 0s;*/
+    transition: opacity 1s, background-color 1s;
+}
+
