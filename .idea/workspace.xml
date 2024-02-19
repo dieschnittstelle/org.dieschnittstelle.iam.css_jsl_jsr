@@ -31,6 +31,7 @@
       <updated>1708356368982</updated>
       <workItem from="1708356372349" duration="53000" />
       <workItem from="1708356431257" duration="21000" />
+      <workItem from="1708358050852" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="remove workspace">
       <created>1708356416381</created>
@@ -46,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708356444444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add workspace">
+      <created>1708358057300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708358057300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
