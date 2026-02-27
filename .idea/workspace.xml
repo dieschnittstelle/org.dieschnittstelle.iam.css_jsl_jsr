@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b926626d-9c01-4103-b161-ef144f91ca09" name="Changes" comment="" />
+    <list default="true" id="b926626d-9c01-4103-b161-ef144f91ca09" name="Changes" comment="update listitems">
+      <change beforePath="$PROJECT_DIR$/data/listitems.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/listitems.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +12,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2caj1XEVGubDaNBtfRm2dFTw4HS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "last_opened_file_path": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/iamworkspace_s26/org.dieschnittstelle.iam.css_jsl_jsr",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,6 +39,7 @@
       <workItem from="1708356372349" duration="53000" />
       <workItem from="1708356431257" duration="21000" />
       <workItem from="1708358050852" duration="314000" />
+      <workItem from="1772186546299" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="remove workspace">
       <created>1708356416381</created>
@@ -54,7 +62,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708358057300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update listitems">
+      <option name="closed" value="true" />
+      <created>1772186555809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772186555809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +79,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove workspace" />
     <MESSAGE value="add workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="add workspace" />
+    <MESSAGE value="update listitems" />
+    <option name="LAST_COMMIT_MESSAGE" value="update listitems" />
   </component>
 </project>
